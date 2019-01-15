@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+	border: 1px solid black;
+	text-align: center;
+}
+td {
+	font-family: "helvetica", sans-serif;
+	width:150px;
+	height:125px;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Phones for Sale</title>
+</head>
+<body>
+	<form method="post" action="Controller">
+		<table>
+		<tr><td><input type="radio" name="phone" value="Nexus6P"/>Nexus 6P
+		<input type="hidden" name="Nexus6PPrice" value="800.00"/><br>
+		<img src="images/Nexus6P.jpg" alt="Nexus 6P" height="75px"></td>
+		
+		<td><input type="radio" name="phone" value="LGV30"/>LG V30
+		<input type="hidden" name="LGV30Price" value="900.00"/><br>
+		<img src="images/LGV30.jpg" alt="LG V30" height="75px"></td></tr>
+		
+		<tr><td><input type="radio" name="phone" value="SamsungGalaxyS9"/>Samsung Galaxy S9
+		<input type="hidden" name="SamsungGalaxyS9Price" value="950.00"/><br>
+		<img src="images/SamsungGalaxyS9.jpg" alt="SamsungGalaxyS9" height="75px"></td>
+		
+		<td><input type="radio" name="phone" value="OnePlus6"/>OnePlus 6
+		<input type="hidden" name="OnePlus6Price" value="550.00"/><br>
+		<img src="images/OnePlus6.jpg" alt="OnePlus 6" height="75px"></td></tr>
+		</table>
+		<input type="submit" value="Go!"/>
+	</form>
+</body>
+</html>
